@@ -1,0 +1,127 @@
+
+p {
+	color: rgba(0,0,0,.5);
+	font-family: "Verdana";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	text-transform: uppercase;
+	letter-spacing: normal;
+	word-spacing: 20px;
+	text-shadow: 10px 10px 10px black;
+}
+
+h1{
+font-weight: normal;
+text-align: center;
+}
+
+a{
+	font-size: 20px;
+	padding: 10px 20px;
+	text-decoration: none;
+	margin: 10px 20px;
+	background: #3BA7E1;
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	box-shadow: 0px 5px 0px #1D64A6;
+
+}
+
+
+
+a: link{
+	color: red;
+	font-size: 50px;
+}
+
+a:visited{
+	color: #000;
+	text-decoration: line-throug
+}
+
+a:hover { 
+    box-shadow: 0px 2px 0px #000;
+    background: #ccc;
+}
+
+a:active {
+	box-shadow: none;
+}
+
+
+img{
+    width:300px;
+    height: auto ;
+    /*margin: auto;*/
+    display: block; /*por defeto imagenes osnm inline block*/
+    border-radius:50%;
+    /*box-shadow: 5px 5px 0px #000;*/
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+    
+    
+}
+
+div
+{
+    /*background: #CCC;*/
+    width: 100%;
+
+}
+
+
+ul > ul{
+    list-style-type:circle;
+    list-style-position: inside; /*outside default*/
+}
+
+
+
+
+
+ol{
+    list-style-type: decimal-leading-zero;
+    list-style-type: upper-alpha;
+}
+
+
+
+
+.menu{
+    width: 100%;
+    background: #000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.menu li a:hover {
+    background: #ccc;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+

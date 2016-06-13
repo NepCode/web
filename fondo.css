@@ -1,0 +1,7 @@
+#fondo{
+width:2160px;  //ancho del div
+height:1100px; // alto del div 
+position:relative; // posicion de la imagen
+background-image:url(“../img/fordgt.jpg”); // ruta de la imagen, como pueden ver se pone ../ porque se toma el nivel del archivo estilo1.css y no desde el nivel index.html
+background-repeat: no-repeat; // para que la imagen no se repita
+}
